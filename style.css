@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background-color: rgb(226, 215, 215);
+    width: 100%;
+    height: 100vh;
+    
+}
+.container1{
+    /* background-color: blue; */
+    background-image: repeating-radial-gradient(farthest-corner at 50% 60%, rgba(7, 105, 161, 0.822), aqua);
+    width: 60%;
+    height: 70vh;
+    position: relative;
+    border-bottom: 5px solid grey;
+    border-right: 5px solid grey;
+}
+.container2{
+    background-color: rgb(50, 214, 214);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    border-radius: 20px;
+    
+}
+img{
+    width: 55px;
+    position: absolute;
+    top: -15%;
+    left: 35%;
+    
+}
+section{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    position: absolute ;
+    top: 35%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+}
+.span1{
+    /* background-color: red; */
+    width: 80%;
+    margin: 40px 15px;
+    font-weight: bolder;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    
+}
+.span2{
+    /* background-color: red; */
+    width: 77%;
+    display: flex;
+    justify-content: right;
+
+    /* font-weight: bold; */
+    font-size: 11px;
+    position: relative;
+    bottom: 54px;
+    color: gray;
+}
+.p1{
+    width: 60%;
+    display: flex;
+    position: absolute;
+    top: 61px;
+    left: 80px;
+    font-size: 10px;
+    color: gray;
+}
+.box{
+    /* background-color: red; */
+    width: 100%;
+    margin: 0 30px;
+    /* padding: 0 auto; */
+}
+.box1{
+    /* background-color: blue; */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 6px;
+    color: rgb(82, 78, 78);
+}
+.box2{
+    /* background-color: blue; */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 10px;
+    color: rgb(82, 78, 78);
+}
+.box3{
+    /* background-color: blue; */
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 10px;
+    color: rgb(82, 78, 78);
+}
+.p2{
+    font-size: 6px;
+    color: gray;
+}
+.p3{
+    font-size: 6px;
+    color: gray;
+} 
+.p4{
+    font-size: 6px;
+    color: gray;
+}
